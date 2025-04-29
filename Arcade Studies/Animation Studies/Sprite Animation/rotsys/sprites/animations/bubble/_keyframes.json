@@ -1,0 +1,13 @@
+{
+    "configs": {
+        "directions": null,
+        "time_based": false
+    },
+    "states": {
+        "idle": {
+            "type": "bounce",
+            "delay": 5,
+            "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+        }
+    }
+}

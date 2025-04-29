@@ -1,0 +1,19 @@
+{
+    "configs": {
+        "directions": 12,
+        "time_based": true,
+        "hitbox": [0, -10, 30, 30]
+    },
+    "states": {
+        "idle": {
+            "type": "repeat",
+            "delay":  60,
+            "frames": [0]
+        },
+        "move": {
+            "type": "repeat",
+            "delay": 60,
+            "frames": [0]
+        }
+    }
+}

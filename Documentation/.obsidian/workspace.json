@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "dbaf19c54effe70c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9acc492fcc6f5718",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "459a8df4880f08e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tiling/Everything About Tiles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Everything About Tiles"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3862d092d539e06c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ac7307084813c0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b2719128d827efc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bb3ee1307c99b807",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a1ecdf658a0cb253",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f948cabf7f95dbf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbea4d3bd2a5117b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ea50c3d5fe4b167",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tiling/Everything About Tiles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Everything About Tiles"
+            }
+          },
+          {
+            "id": "d833311481117655",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tiling/Everything About Tiles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Everything About Tiles"
+            }
+          },
+          {
+            "id": "33131d5a3d6c78a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "69a319d015cb65ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tiling/Everything About Tiles.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Everything About Tiles"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "459a8df4880f08e2",
+  "lastOpenFiles": [
+    "Tiling/imgs/sample_tile_hex_point_24.png",
+    "Tiling/imgs/sample_tile_hex_flat_24.png",
+    "Tiling/imgs/sample_tile_iso_24.png",
+    "Tiling/imgs/sample_tile_square_24.png",
+    "Tiling/imgs/output.png",
+    "output.png",
+    "Tiling/imgs/hex_flat_order.png",
+    "Tiling/Everything About Tiles.md",
+    "Tiling/imgs",
+    "Tiling/Tile Ordering.md",
+    "Tiling/imgs/square_order.png",
+    "Tiling/imgs/iso_order.png",
+    "Tiling/imgs/hex_point_order.png",
+    "Tiling",
+    "Game Engine"
+  ]
+}

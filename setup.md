@@ -1,5 +1,7 @@
 These are all the required steps to setup the environment on the Steam Deck to run all the code in this repo.
 
+
+
 # 1. Distrobox
 
 ``` bash
@@ -8,6 +10,8 @@ distrobox enter <container_name>
 ```
 
 After the container exists, some basic software needs to be installed:
+
+
 
 # 2. Git
 
@@ -23,6 +27,8 @@ Test with:
 ``` bash
 git --version
 ```
+
+
 
 # 3. VS Code
 
@@ -46,27 +52,98 @@ Test with:
 code --version
 ```
 
-# 4. Python 3
 
-Reference: ...
+
+## 3.1 Useful extensions
+
+- Material Icon Theme
+- Indent Rainbow
+- Markdown Preview Github
+- Gif Player
+
+
+
+# 4. Python 3.12
+
+Reference: https://www.linuxtuto.com/how-to-install-python-3-12-on-ubuntu-22-04/
+
+``` bash
+sudo apt update
+sudo apt upgrade -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+# You have to click ENTER
+```
+
+``` bash
+sudo apt update
+sudo apt install python3.12
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.12
+sudo apt install python3.12-dev python3.12-venv
+```
 
 
 
 ## 4.1. Venv creation
 
-Reference: ...
+Reference: https://stackoverflow.com/questions/77230254/cannot-properly-create-a-virtual-enviroment-in-python-3-12
+
+``` bash
+python3.12 -m venv venv
+```
+
+Test with:
+
+```bash
+. venv/bin/activate
+```
 
 
 
 ## 4.2. Installing Arcade
 
-Reference: ...
+Reference: https://pypi.org/project/arcade/
+
+```bash
+. venv/bin/activate
+pip install arcade
+```
+
+Test with:
+
+```bash
+python -m arcade.examples.sprite_explosion_bitmapped
+```
 
 
 
-## 4.3. Installing additional graphical drivers
+## 4.3. Installing Blender dependencies
 
-Reference: ...
+References:  
+https://pypi.org/project/PyGObject/  
+https://pypi.org/project/bpy/
 
+``` bash
+. venv/bin/activate
+pip install PyGObject bpy
+```
+
+
+
+# 5. Additional references
+
+## 5.1. Python in general
+
+- pip install opencv-python
+- pip install pillow
+
+
+## 5.2. Arcade
+
+## 5.3. Blender
+
+- https://blenderartists.org/t/rendering-automation-automated-image-resource-change-automated-camera-change/1476203/2
+
+- https://www.reddit.com/r/blenderhelp/comments/rbjale/how_do_i_make_a_plane_transparent_when_rendering/
 
 
