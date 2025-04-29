@@ -11,6 +11,8 @@ After the container exists, some basic software needs to be installed:
 
 # 2. Git
 
+Reference: https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu
+
 ``` bash
 sudo apt update
 sudo apt install git -y
@@ -23,6 +25,8 @@ git --version
 ```
 
 # 3. VS Code
+
+Reference: https://code.visualstudio.com/docs/setup/linux
 
 ``` bash
 sudo apt-get install wget gpg
@@ -44,17 +48,25 @@ code --version
 
 # 4. Python 3
 
+Reference: ...
+
 
 
 ## 4.1. Venv creation
+
+Reference: ...
 
 
 
 ## 4.2. Installing Arcade
 
+Reference: ...
+
 
 
 ## 4.3. Installing additional graphical drivers
+
+Reference: ...
 
 
 
